@@ -1,12 +1,12 @@
-DATA SCIENCE AND STATISTICAL ANALYSIS APLIYNG PYTHON
+# DATA SCIENCE AND STATISTICAL ANALYSIS APLIYNG PYTHON
 
-DEI (Diversity, Equity and Inclusion) of an Organization
+## DEI (Diversity, Equity and Inclusion) of an Organization
 
-INSTRUCTIONS AND THE RESULTS OBTAINED IN THE PRESENT PROJECT:
+## INSTRUCTIONS AND THE RESULTS OBTAINED IN THE PRESENT PROJECT:
 
 Using the data set and questions below, conduct the analysis and prepare a short presentation
 with your results. Please, send your code (in Python or R) and presentation slides by XX, 2024.
-Data Set: https://www.kaggle.com/datasets/rhuebner/human-resources-data-set/data
+Data Set: ` https://www.kaggle.com/datasets/rhuebner/human-resources-data-set/data `
 Using the data set, please answer the following questions for the DEI (Diversity, Equity and
 Inclusion) head:
 1. How diverse is the organization regarding gender, age, and race? Which departments
@@ -14,12 +14,21 @@ are more/less diverse?
 
 About the code is the following in each case:
 To count the diversity among the departments:
+```bash
 org_diversity.py
+```
 Analyzing the Races through the departments:
+```bash
 chi-square_races.py
+```
 Analyzing the gender through the departments:
+```bash
 chi-square_gender.py
-
+```
+to run the code for example in the terminal put python and one of the codes before remarked such: 
+```bash
+pyhton chi-square_gender.py
+```
 Organization diversity:
 Gender Diversity:
 Observations:
@@ -56,11 +65,13 @@ question, which variables would you have added to your analysis and why?
 
 For the second question was developed an ANOVA statistical analysis to know the any statistically significant differences among the Salary, Engagement among the race and the age:
 Code employed here is:
+```bash
 Secquestion_Anova.py
-
+```
 to make the graphics of this results:
+```bash
 Secquestion_2Anova.py
-
+```
 
 ANOVA Results:
 ANOVA for Salaries across RaceDesc: F_onewayResult(statistic=1.2863499291564824,
@@ -126,17 +137,21 @@ To answer this question was carried out a variety of tests to create the better 
 founding the following results:
 
 XGBBOOST CLASSIFIER:
+```bash
 xgboost_3quest.py
-
+```
 logistic regression:
+```bash
 logisticreg_3quest.py
-
+```
 Support Vector machine:
+```bash
 Supportvector3quest.py
-
+```
 Neural Network:
+```bash
 neural_netw3quest.py
-
+```
 I have developed some models to create the best response possible with the following models:
 Model Selection:
 Logistic Regression, Support Vector Machine, Decision Trees, Random Forests, neural networks
